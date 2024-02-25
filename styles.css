@@ -1,0 +1,43 @@
+.body-class {
+    background-color: aquamarine;
+}
+
+.header-class {
+    background-color: azure;
+    color: blue;
+}
+
+.nav-class {
+    background-color: aliceblue;
+    color:aqua;
+}
+
+.title-class, .section-title-class {
+    h1 { background-color: cornflowerblue;}
+    h2 {background-color: cyan;}
+    h3 {background-color: darkturquoise;}
+}
+
+.text-class {
+    color:blue;
+}
+
+.image-class {
+    border-color:aquamarine;
+}
+
+.form-class, .button-class {
+    background-color: aqua;
+}
+
+.footer-class {
+    color:blue;
+    background-color: aquamarine;
+}
+
+@media screen and (min-width: 480px) {
+    .image-class {
+        max-width: 300;
+        max-height: 300;
+    }
+}
